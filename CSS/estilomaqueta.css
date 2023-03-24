@@ -20,6 +20,27 @@ body {
     width: 100%;
     height: 100px;
 }
+
+
+button{
+        height: 52px;   /*altura del boton*/
+        width: 200px;   /*ancho del boton*/
+        font-size: 24px;    /*tamaño de letra */
+        font-weight: bold;  /*pongo las letras en negrita*/
+        text-transform: uppercase;  /*Transformo todo el texto en mayusculas*/
+        letter-spacing: 2px;    /*espacio entre las letras*/
+        color: white;   /*color de las letras*/
+        background-color: black;    /*color del boton*/
+        border: 4px solid black; /*Le pongo un borde de 4px color negro solido*/
+        border-radius: 10px;    /*Redondeo las esquinas del borde (negro)*/ 
+        position: relative; /*posicionamiento relativo para variar ligeramente la posicion*/
+        cursor: pointer;    /*muestra el puntero "mano" al pasar por el boton*/
+        z-index: 1; /*indico el nivel de profundidad*/
+        transition: color 1s ease-in-out;   /*transicion del efecto de las letras al soltar el boton (negro a blanco)*/
+}
+
+
+
 .main {
     background: #dce2ec;
     width: 100%;
