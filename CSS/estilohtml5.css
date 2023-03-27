@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #344056;
+}
+.cabecera{
+    background: #344056;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    .cabecera h1{
+    color: white; /*Color de las letras de la cabecera*/
+    text-shadow: 0px 0px 15px #10c9cf;/*sombra del texto*/
+    margin-left: 20px;
+}
+.navegador {
+    background: #10c9cf;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;    /*Alineacion vertical de los botones*/
+    justify-content: flex-end;    /*Alineacion horizontal de los botones*/
+    
+}
+button{
+    margin-right: 80px;/* margen desde la derecha*/
+    height: 52px;   /*altura del boton*/
+    width: 200px;   /*ancho del boton*/
+    font-size: 24px;    /*tamaño de letra */
+    font-weight: bold;  /*pongo las letras en negrita*/
+    text-transform: uppercase;  /*Transformo todo el texto en mayusculas*/
+    text-shadow: 0px 0px 15px #10c9cf;
+    letter-spacing: 2px;    /*espacio entre las letras*/
+    color: white;   /*color de las letras*/
+    background-color: #344056;    /*color del boton*/
+    border: 3px solid #546588; /*Borde de 4px color negro solido*/
+    border-radius: 10px;    /*Redondeo las esquinas del borde (negro)*/
+    position: relative; /*posicionamiento relativo para variar ligeramente la posicion*/
+    cursor: pointer;    /*muestra el puntero "mano" al pasar por el boton*/
+    z-index: 1; /*indico el nivel de profundidad*/
+    transition: color 1s ease-in-out;   /*transicion del efecto de las letras al soltar el boton (negro a blanco)*/
+}
+.main {
+    background: #dce2ec;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menulateral {
+    width: 25%;
+    height: 100%;
+    background: #c6d3ec;
+}
+.contenido {
+    background-color: #ffffff;
+    width: 75%;
+    height: 100%;
+}
+.piepagina {
+    background: #3a3b3b;
+    width: 100%;
+    height: 100px;
+}
+
