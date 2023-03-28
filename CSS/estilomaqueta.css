@@ -24,9 +24,8 @@ body {
     }
 
 .main {
-    background: #eaf493;    /*Color de fondo*/
-   
-    height: calc(100vh - 150px);
+    background: #6b83af;    /*Color de fondo*/
+    height: calc(100vh - 140px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,17 +174,23 @@ body {
             transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
         }
 
-    .section {
-        background-color: #b4c0d5;  /*Color de fondo*/
+    .article {
+        background-color: #6b83af;  /*Color de fondo*/
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        
     }
-        .article {
-            background-color: #a9aaab;
-            padding: 50px;
+        .section {
+            color: black;
+            background-color:  #6b83af;
+            width: 90%;
+            padding: 30px;
+            display:inline-flex;
+            font-size: 30px;
+            
         }
+        
    
 
 
