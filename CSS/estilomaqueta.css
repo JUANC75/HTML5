@@ -24,45 +24,39 @@ body {
     }
 
 .main {
-    background: #6b83af;    /*Color de fondo*/
-    width: 100%;
-    height: calc(100vh - 200px);
+    background: #eaf493;    /*Color de fondo*/
+   
+    height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
-    
+    margin-right: 10px; 
 }
     .aside {
-        width: 20%;
+        width: 25%;
         height: 100%;
         background: #344056;    /*Color de fondo*/
         border: 3px solid #10c9cf;
         border-radius: 20px;
+        
     }
-
     .menu{
         background-color: #344056;
         list-style: none;
         margin-top: 100px;
         padding: 10px;
-        height: 100%px;
+        height: 100px;
         gap: 50px;
         display: grid;
         justify-items: center;
         align-items: center;
     }
-
     a {
         text-decoration: none;
         color: white;
     }
-
-
-
-
-
     .menuhtml{
         height: 52px;   /*altura del boton*/
         width: 200px;   /*ancho del boton*/
@@ -71,7 +65,7 @@ body {
         text-transform: uppercase;  /*Transformo todo el texto en mayusculas*/
         letter-spacing: 2px;    /*espacio entre las letras*/
         background-color: #344056;    /*color del boton*/
-        border: 4px solid white; /*Le pongo un borde de 4px color negro solido*/
+        border: 4px solid #10c9cf; /*Le pongo un borde de 4px color negro solido*/
         border-radius: 10px;    /*Redondeo las esquinas del borde (negro)*/ 
         position: relative; /*posicionamiento relativo para variar ligeramente la posicion*/
         cursor: pointer;    /*muestra el puntero "mano" al pasar por el boton*/
@@ -91,7 +85,7 @@ body {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);   /*zona que ocupa el efecto del color al pasar el raton por el boton*/
-            background-color: #10c9cf;
+            background-color: #f06529;
             border-radius: 5px; /*Redondeo las esquinas del borde (blanco)*/ 
             width: 0;
             height: 100%; 
@@ -102,14 +96,6 @@ body {
             width: 100%;
             transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
         }
-
-
-
-
-
-
-
-
     .menucss{
         height: 52px;   /*altura del boton*/
         width: 200px;   /*ancho del boton*/
@@ -118,7 +104,7 @@ body {
         text-transform: uppercase;  /*Transformo todo el texto en mayusculas*/
         letter-spacing: 2px;    /*espacio entre las letras*/
         background-color: #344056;    /*color del boton*/
-        border: 4px solid white; /*Le pongo un borde de 4px color negro solido*/
+        border: 4px solid #10c9cf; /*Le pongo un borde de 4px color negro solido*/
         border-radius: 10px;    /*Redondeo las esquinas del borde (negro)*/ 
         position: relative; /*posicionamiento relativo para variar ligeramente la posicion*/
         cursor: pointer;    /*muestra el puntero "mano" al pasar por el boton*/
@@ -127,36 +113,28 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-    
     }
-    .menucss:hover{
-        color: black;   /*color de las letras*/
-        transition: all 1s ease-in-out; /*transicion del efecto de las letras al pasar el cursor por el boton (blanco a negro)*/
-    }
-    .menucss::before{
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);   /*zona que ocupa el efecto del color al pasar el raton por el boton*/
-        background-color: #10c9cf;
-        border-radius: 5px; /*Redondeo las esquinas del borde (blanco)*/ 
-        width: 0;
-        height: 100%; 
-        z-index: -1; /*indico el nivel de profundidad*/
-        transition: all 1s ease-in-out; /*transicion del efecto de cierre del color de fondo y tiempo que tarda en cerrar*/
-    }
-    .menucss:hover::before{
-        width: 100%;
-        transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
-    }
-
-
-
-
-
-
-
+        .menucss:hover{
+            color: black;   /*color de las letras*/
+            transition: all 1s ease-in-out; /*transicion del efecto de las letras al pasar el cursor por el boton (blanco a negro)*/
+        }
+        .menucss::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);   /*zona que ocupa el efecto del color al pasar el raton por el boton*/
+            background-color: #2965f1;
+            border-radius: 5px; /*Redondeo las esquinas del borde (blanco)*/ 
+            width: 0;
+            height: 100%; 
+            z-index: -1; /*indico el nivel de profundidad*/
+            transition: all 1s ease-in-out; /*transicion del efecto de cierre del color de fondo y tiempo que tarda en cerrar*/
+        }
+        .menucss:hover::before{
+            width: 100%;
+            transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
+        }
     .menujs{
         height: 52px;   /*altura del boton*/
         width: 200px;   /*ancho del boton*/
@@ -165,7 +143,7 @@ body {
         text-transform: uppercase;  /*Transformo todo el texto en mayusculas*/
         letter-spacing: 2px;    /*espacio entre las letras*/
         background-color: #344056;    /*color del boton*/
-        border: 4px solid white; /*Le pongo un borde de 4px color negro solido*/
+        border: 4px solid #10c9cf; /*Le pongo un borde de 4px color negro solido*/
         border-radius: 10px;    /*Redondeo las esquinas del borde (negro)*/ 
         position: relative; /*posicionamiento relativo para variar ligeramente la posicion*/
         cursor: pointer;    /*muestra el puntero "mano" al pasar por el boton*/
@@ -175,42 +153,40 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .menujs:hover{
-        color: black;   /*color de las letras*/
-        transition: all 1s ease-in-out; /*transicion del efecto de las letras al pasar el cursor por el boton (blanco a negro)*/
-    }
-    .menujs::before{
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);   /*zona que ocupa el efecto del color al pasar el raton por el boton*/
-        background-color: #10c9cf;
-        border-radius: 5px; /*Redondeo las esquinas del borde (blanco)*/ 
-        width: 0;
-        height: 100%; 
-        z-index: -1; /*indico el nivel de profundidad*/
-        transition: all 1s ease-in-out; /*transicion del efecto de cierre del color de fondo y tiempo que tarda en cerrar*/
-    }
-    .menujs:hover::before{
-        width: 100%;
-        transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
-    }
-
-    
-
-
-
-
-
-
-
+        .menujs:hover{
+            color: black;   /*color de las letras*/
+            transition: all 1s ease-in-out; /*transicion del efecto de las letras al pasar el cursor por el boton (blanco a negro)*/
+        }
+        .menujs::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);   /*zona que ocupa el efecto del color al pasar el raton por el boton*/
+            background-color: #f0db4f;
+            border-radius: 5px; /*Redondeo las esquinas del borde (blanco)*/ 
+            width: 0;
+            height: 100%; 
+            z-index: -1; /*indico el nivel de profundidad*/
+            transition: all 1s ease-in-out; /*transicion del efecto de cierre del color de fondo y tiempo que tarda en cerrar*/
+        }
+        .menujs:hover::before{
+            width: 100%;
+            transition: all 1s ease-in-out; /*transicion del efecto de apertura del color de fondo y tiempo que tarda en abrir*/
+        }
 
     .section {
-        background-color: #6b83af;  /*Color de fondo*/
-        width: 80%;
+        background-color: #b4c0d5;  /*Color de fondo*/
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+        .article {
+            background-color: #a9aaab;
+            padding: 50px;
+        }
+   
 
 
 .footer {
@@ -218,6 +194,5 @@ body {
     width: 100%;
     height: 100px;
     color: white;   /*Color de las letras*/
-    border: 3px solid #3a3b3b;
 }
 
