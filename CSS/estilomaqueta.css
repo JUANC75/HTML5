@@ -184,11 +184,12 @@ body {
     }
         .section {
             color: black;
-            background-color:  #6b83af;
+            background-color:  white;
             width: 90%;
             padding: 30px;
             display:inline-flex;
             font-size: 30px;
+            text-align: left;
             
         }
         
